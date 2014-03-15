@@ -3,9 +3,9 @@
 int getch();
 void ungetch(char c);
 
-#define IN_CODE					0
-#define IN_MULTILINE_COMMENT	1
-#define IN_ONELINE_COMMENT		2
+#define IN_CODE 0
+#define IN_MULTILINE_COMMENT 1
+#define IN_ONELINE_COMMENT 2
 
 main()
 {
